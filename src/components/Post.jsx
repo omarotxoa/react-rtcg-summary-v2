@@ -1,8 +1,9 @@
-function Post() {
+function Post(props) {
+
   return (
     <div>
-      <p>Placeholder Name</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, sit?</p>
+      <h2>{props.author}</h2>
+      <p>{props.body}</p>
     </div>
   );
 }
